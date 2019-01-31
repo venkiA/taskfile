@@ -58,15 +58,17 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
-	<disrtibutionManagement>
+				
+		  <disrtibutionManagement>
         <repositiory>
 		<id>releases</id>
 		<url>http://18.188.93.177:8081/#browse/browse:maven-releases</url>
 	</repositiory>
-     </disrtibutionManagement>	
+     </disrtibutionManagement>
+			</plugin>
+		</plugins>
+	</build>
+		
 
 
 </project>
