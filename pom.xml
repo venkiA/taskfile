@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>portal</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>portal</name>
@@ -60,14 +60,14 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 		</plugin>		
 		</plugins>
-		
+
 	</build>
 		
 
 <distributionManagement>
-  <repository>
-    <id>releases</id>
-    <url>http://3.16.69.146:8081/nexus/content/repositories/releases</url>
-  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://3.16.69.146:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
 </distributionManagement>
 </project>
