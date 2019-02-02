@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>portal</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>${BUILD_NUMBER}-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>portal</name>
