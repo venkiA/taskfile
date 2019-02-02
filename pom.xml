@@ -60,6 +60,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 		</plugin>		
 		</plugins>
+		<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://3.16.69.146:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
 	</build>
 		
 
